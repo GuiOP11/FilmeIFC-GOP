@@ -38,7 +38,7 @@
             
 <?php
 require_once 'src/FilmeDAO.php';
-require_once 'src/SerieDAO.php';
+
 
 $tipo = isset($_GET['tipo']) ? $_GET['tipo'] : 'filme';
 
